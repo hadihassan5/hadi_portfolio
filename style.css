@@ -409,18 +409,6 @@ footer {
     }
 }
 
-@media (max-width: 740px) {
-    nav ul {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row !important;
-    }
-
-    nav ul .menu {
-        flex-direction: row !important;
-    }
-}
-
 @media (max-width: 480px) {
     .menu a {
         font-size: 16px;
