@@ -370,7 +370,7 @@ footer {
 
 @media (max-width: 768px) {
     main {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -406,6 +406,18 @@ footer {
     .menu {
         flex-direction: row;
         gap: 15px;
+    }
+}
+
+@media (max-width: 740px) {
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row !important;
+    }
+
+    nav ul .menu {
+        flex-direction: row !important;
     }
 }
 
